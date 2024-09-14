@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tour of DOM</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Welcome to DOM</h1>
     <main>
-        <h2>My Awesome DOM</h2>
-        <ul>
-            <li>Jalali set</li>
-            <li>Shafayet</li>
-            <li>Bonobas</li>
-        </ul>
+        <section>
+            <h2 class="testClass oneClass twoClass">My Awesome DOM</h2>
+            <ul>
+                <li>Jalali set</li>
+                <li>Shafayet</li>
+                <li>Bonobas</li>
+            </ul>
+        </section>
+        <section id="places-container" class="large-text">
+            <h2 id="anyId" class="anyClass moreClass">My Awesome DOM 2</h2>
+            <ul>
+                <li>Jalali set</li>
+                <li>Shafayet</li>
+                <li>Bonobas</li>
+            </ul>
+        </section>
     </main>
     <script src="dom.js"></script>
+    <script src="styleInJs.js"></script>
 </body>
+
 </html>
 
 
@@ -27,44 +41,45 @@
 <!-- Html is document, 
  DOM makes Html as JS object, 
  that's why it's called Document Object Model -->
- 
- <!-- every element(<h1>, <li> etc.) is a Node -->
+
+<!-- every element(<h1>, <li> etc.) is a Node -->
 
 
- <!-- 24-2 - Very important (should check often) conceptual -->
- <!-- 24-2 - Very important (should check often) conceptual -->
+<!-- 24-2 - Very important (should check often) conceptual -->
+<!-- 24-2 - Very important (should check often) conceptual -->
 <!-- document.body -->
 <!-- document.body -->
 <!-- document.body -->
 <!-- document.body -->
 <!-- document.getElementById -->
-  
-  <!-- Document - HTML  -->
-  <!-- Object - Make html elements as an JS object -->
-   <!-- Model - means copy -->
-    <!-- Array like object - htmlCollection -->
+
+<!-- Document - HTML  -->
+<!-- Object - Make html elements as an JS object -->
+<!-- Model - means copy -->
+<!-- Array like object - htmlCollection -->
 
 
 
-<!-- 24-3 - Very important after 09:30 (should check often) conceptual -->   
-<!-- 24-3 - Very important after 09:30 (should check often) conceptual --> 
+<!-- 24-3 - Very important after 09:30 (should check often) conceptual -->
+<!-- 24-3 - Very important after 09:30 (should check often) conceptual -->
 
- <!-- document.getElementsByTagName('h1') -->
- 
+<!-- document.getElementsByTagName('h1') -->
+
 
 
 <!-- 24.4 Check to dom.js -->
 
 <!-- document.querySelector('fruits-title li') -->
 <!-- document.querySelectorAll('fruits-title li') -->
- <!--  querySelectorAll -->
-   
+<!--  querySelectorAll -->
 
- <!-- Difference of HTMLCollection & NodeList - 08:00  -->
 
- <!-- 24.5  05:00 -->
+<!-- Difference of HTMLCollection & NodeList - 08:00  -->
 
- <!-- document.getElementById('fruits-title').styles.textAlign= 'center' - to set any styles -->
-  <!-- never use -(dash/hyphen) in javascript instead camelCase -->
+<!-- 24.5  05:00 -->
 
-  <!-- after 05:05 - should check again to clear concept -->
+<!-- document.getElementById('fruits-title').styles.textAlign= 'center' - to set any styles -->
+<!-- never use -(dash/hyphen) in javascript instead camelCase -->
+
+<!-- after 05:05 - should check again to clear concept -->
+ <!-- 06:00 -->
