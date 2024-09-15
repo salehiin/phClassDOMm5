@@ -70,4 +70,4 @@ console.log(document);
    // placesUl.parentNode.childNodes
 
 
-   // 24.6
+   // 24.
