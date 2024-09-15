@@ -32,4 +32,42 @@ console.log(document);
    // const html = title.innerHTML;
    // console.log(html);
 
+   // 24.7 - 07:00
+   // const placesContainer = document.getElementById('places-container')
+   // placesContainer.firstChild
+   // placesContainer.childNodes
+   // placesContainer.childNodes[1]
+   // placesContainer.childNodes[3].childNodes
+   // placesContainer.childNodes[3].childNodes[5].nextSibling
+   // placesContainer.childNodes[3].childNodes[5].nextSibling
+   
+   // const placesUl = document.querySelector('#places-container ul')
+   // placesUl
+
+   // To create any HTML element
+   // document.createElement('span')
+   // document.createElement('section')
+
+   // To create any HTML element & any content input
+   // const li = document.createElement('li')
+   // li.innerHTML = 'Brand new place to go'
+
+   // To create any HTML element & any content input
+   // const placesUl = document.querySelector('#places-container ul')
+   // const li = document.createElement('li')
+   // placesUl.appendChild(li)
+   // li.innerHTML = 'Brand new place to go'
+   // placesUl.appendChild(li)
+
+   // const placesUl = document.querySelector('#places-container ul')
+   // const li2 = document.createElement('li')
+   // li2.innerText = 'another dynamic li'
+   // placesUl.appendChild(li2)
+
+   // To access parent, child, siblings etc.
+   // const placesUl = document.querySelector('#places-container ul')
+   // placesUl.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode
+   // placesUl.parentNode.childNodes
+
+
    // 24.6

@@ -10,7 +10,7 @@
 
 <body>
     <h1>Welcome to DOM</h1>
-    <main>
+    <main id="main-container">
         <section>
             <h2 class="testClass oneClass twoClass">My Awesome DOM</h2>
             <ul>
@@ -27,8 +27,18 @@
                 <li>Bonobas</li>
             </ul>
         </section>
+        <section id="places-container" class="large-text">
+            <h2 id="places-title" class="anyClass moreClass">My Awesome DOM 2</h2>
+            <ul id="places-list">
+                <li>Sundarban</li>
+                <li>Bandarban</li>
+                <li>Kataban</li>
+                <li>Shalban</li>
+            </ul>
+        </section>
     </main>
     <script src="dom.js"></script>
+    <script src="append.js"></script>
     <script src="styleInJs.js"></script>
 </body>
 

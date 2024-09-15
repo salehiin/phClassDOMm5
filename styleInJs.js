@@ -1,3 +1,5 @@
+// 24.6
+
 const sections = document.querySelectorAll('section');
 // console.log(sections);
 for(const section of sections){
