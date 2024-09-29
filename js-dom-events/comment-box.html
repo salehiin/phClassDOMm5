@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Please add your comment</h1>
+    <div id="comment-container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque laudantium mollitia praesentium repellat est, nihil incidunt culpa numquam iste quam nobis quaerat voluptas quod maiores harum? Molestiae, porro ducimus omnis a ullam veritatis aspernatur incidunt voluptate dolorem magnam quibusdam eos necessitatibus laudantium est quaerat labore harum neque. Recusandae voluptatibus laudantium sint beatae debitis ullam quia illo dicta mollitia adipisci! Sed at excepturi id iusto tempore accusantium libero laboriosam corporis ad magnam labore, doloribus qui suscipit omnis earum explicabo. Eaque perferendis necessitatibus modi provident aut? Tenetur, quas. Nisi, modi adipisci? Nesciunt temporibus architecto quia aperiam reiciendis est. Dolor quasi nemo quisquam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque laudantium mollitia praesentium repellat est, nihil incidunt culpa numquam iste quam nobis quaerat voluptas quod maiores harum? Molestiae, porro ducimus omnis a ullam veritatis aspernatur incidunt voluptate dolorem magnam quibusdam eos necessitatibus laudantium est quaerat labore harum neque. Recusandae voluptatibus laudantium sint beatae debitis ullam quia illo dicta mollitia adipisci! Sed at excepturi id iusto tempore accusantium libero laboriosam corporis ad magnam labore, doloribus qui suscipit omnis earum explicabo. Eaque perferendis necessitatibus modi provident aut? Tenetur, quas. Nisi, modi adipisci? Nesciunt temporibus architecto quia aperiam reiciendis est. Dolor quasi nemo quisquam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque laudantium mollitia praesentium repellat est, nihil incidunt culpa numquam iste quam nobis quaerat voluptas quod maiores harum? Molestiae, porro ducimus omnis a ullam veritatis aspernatur incidunt voluptate dolorem magnam quibusdam eos necessitatibus laudantium est quaerat labore harum neque. Recusandae voluptatibus laudantium sint beatae debitis ullam quia illo dicta mollitia adipisci! Sed at excepturi id iusto tempore accusantium libero laboriosam corporis ad magnam labore, doloribus qui suscipit omnis earum explicabo. Eaque perferendis necessitatibus modi provident aut? Tenetur, quas. Nisi, modi adipisci? Nesciunt temporibus architecto quia aperiam reiciendis est. Dolor quasi nemo quisquam?</p>
+    </div>
+    <div>
+        <textarea name="" id="new-comment" cols="80" rows="10"></textarea>
+        <br>
+        <button id="btn-post">Post</button>
+    </div>
+
+
+    <script>
+        // 25.5
+        // step-1: add event listener to the post button
+        document.getElementById('btn-post').addEventListener('click', function(){
+        // console.log('post button clicked')
+            // step-2: get the comment inside the text area
+            const commentBox = document.getElementById('new-comment');
+            // console.log('new comment display')
+            // console.log(commentBox)
+            const newComment = commentBox.value;
+            // console.log(newComment);
+
+            // step-3: set the comment inside the comment container
+            // 1. get the comment container
+            // 2. create a new element (p tag)
+            // 3. set the text of the comment as innerText of the p tag
+            // 4. add the p tag using appendChild
+            const commentContainer = document.getElementById('comment-container');
+            const p = document.createElement('p');  // To create an element
+            p.innerText = newComment;
+            commentContainer.appendChild(p);
+
+            // step-5: clear te textarea
+            commentBox.value = '';
+
+        })
+
+
+    </script>
+</body>
+</html>

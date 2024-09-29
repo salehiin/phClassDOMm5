@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM Summary</title>
+
+    <style>
+       body
+       {background-color: black;
+        color: white;
+    }
+    </style>
+</head>
+<body>
+    <h1>Final DOM Event Handlers</h1>
+    <h3 id="handler-status">Default Text</h3>
+    <p id="input-text-display">Default Input Text</p>
+    <input id="input-field" type="text">
+    <button id="btn-update">Update</button>
+    <br>
+    <br>
+     <button onclick="handleOnClick()">handle Event by Add onclick Function</button> <!-- option 1 -->
+    <button id="event-listener">handle Event by addEventListener</button> <!-- option 2 -->
+    
+    <script src="./js/events.js"></script>
+    <script>
+
+// 25.4
+// Option 2
+    document.getElementById('event-listener').addEventListener('click', function(){  // annonymous/callback function
+        const handlerStatus = document.getElementById('handler-status');
+        handlerStatus.innerText = 'Text updated by add Event listener button';
+})
+
+// Option 2: recap
+document.getElementById('btn-update').addEventListener('click', function(){  // annonymous/callback function
+    // console.log('update button clicked');
+    const inputField = document.getElementById('input-field');
+    // console.log(inputField.value); // input field takes value not innerText
+    const inputText = inputField.value; // input field takes value not innerText
+    const p = document.getElementById('input-text-display')
+    p.innerText = inputText;
+    inputField.value = '';
+//     handlerStatus.innerText = 'Text updated by add Event listener button';
+})
+
+
+    </script>
+</body>
+</html>

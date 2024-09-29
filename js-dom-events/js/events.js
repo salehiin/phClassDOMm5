@@ -56,3 +56,26 @@ const makeGreenButton = document.getElementById('make-green');
 document.getElementById('make-goldenrod').addEventListener('click', function makeGoldenrod(){   // use of function name optional
     document.body.style.backgroundColor = 'goldenrod';
 })       // use of function name optional
+
+
+
+// 25.4
+// Option 1
+function handleOnClick(){
+    // console.log('button clicked')
+    const handlerStatus = document.getElementById('handler-status');
+    handlerStatus.innerText = 'handled by function attached on onclick attribute';
+}
+
+// Option 2
+// document.getElementById('event-listener').addEventListener('click', function(){  // annonymous/callback function
+//     const handlerStatus = document.getElementById('handler-status');
+//     handlerStatus.innerText = 'Text updated by add Event listener button';
+// })
+
+// Option 2: recap
+// document.getElementById('btn-update').addEventListener('click', function(){  // annonymous/callback function
+//     console.log('update button clicked');
+//     const handlerStatus = document.getElementById('handler-status');
+//     handlerStatus.innerText = 'Text updated by add Event listener button';
+// })
