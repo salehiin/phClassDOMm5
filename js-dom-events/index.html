@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM EVENTS</title>
+</head>
+<body>  
+        <!-- 25.2 -->
+        <H1 onclick="console.log('If string, should in single quote')">DOM special events</H1>
+        <button onclick="console.log(7)">Click Me</button> <!-- onclick Event -->
+        <button onclick="console.log(65)">Another Button</button>   <!-- option 1 : directly set on HTML element - won't use --> 
+        <br>
+        <button onclick="document.body.style.backgroundColor='Yellow'">Make Yellow</button> <!-- option 1 : directly set on HTML element - won't use -->
+        <button onclick="document.body.style.backgroundColor='white'">Make Default</button> <!-- option 1 : directly set on HTML element - won't use --> 
+        <button onclick="makeRed()">Make Red</button> <!-- option 2 : add onclick function -->
+        <button id="make-blue">Make Blue</button> <!-- option 3 : add onclick function -->
+        <button id="make-purple">Make Purple</button> <!-- option 3(write differently) : add onclick function -->
+
+        <!-- 25.3 -->
+        <!-- option 4 :  -->
+        <button id="make-pink">Make Pink</button> <!-- option 4(write differently) : add onclick function -->
+
+        <!-- option 4(write differently) :  -->
+        <button id="make-green">Make Green</button> <!-- option 4(write differently) : add onclick function -->
+        
+        <!-- option 4(write differently) : use frequently -->
+        <button id="make-goldenrod">Make goldenRod</button> <!-- option 4(write differently) : add onclick function -->
+
+        <script src="./js/events.js"></script>
+        <script>
+            
+        </script>
+</body>
+</html>
+

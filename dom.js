@@ -70,4 +70,20 @@ console.log(document);
    // placesUl.parentNode.childNodes
 
 
-   // 24.
+   // 25.0 - Basic of DOM all in one (important to warch several times)
+
+   // When load in browser HTML document converted to DOM Tree
+   // JS can easily manipulate HTML elements with DOM
+   
+   // What JS can do with DOM for HTML elements: change elements, change CSS, create elements,
+   // remove, change attributes, create new events.
+   
+   // DOM - file, elements, layout structure
+
+   // 01:32 - very clearly described
+
+   // every element in DOM tree is NODE(objects)
+
+   // DOM methods - getElementById, getElementsByClassNae
+
+   // 25-1 What is Event, different types of event in web
