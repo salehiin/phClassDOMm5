@@ -6,15 +6,16 @@ console.log(document);
 
 // <!-- document.querySelectorAll('fruits-title li') -->
 //  <!--  querySelectorAll -->
-   // const someLi = document.querySelectorAll('.fruits-container li');
+   const someLi = document.querySelectorAll('.fruits-container li');
 //    console.log(someLi);
-   // for(const li of someLi){
-   //  console.log(li.innerText);
-   // }
+   for(const li of someLi){
+    console.log(li.innerText);
+   }
 
-   // const title = document.getElementById('fruits-title')
-   // title.getAttribute('id')
-   // title.getAttribute('class')
+// 
+   const title = document.getElementById('fruits-title')
+   title.getAttribute('id')
+   title.getAttribute('class')
    // title.classList
    // title.classList.add('moreClass')
    // title.classList.remove('oneMore')
