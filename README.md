@@ -61,4 +61,14 @@
 # 25.9 - full module summary with 3 main topi from the module, Event capture - should watch frequently
 
 # 25.10 - Different types of events, Event bubbleVScapture, Event delegation, JS Event loop - have to learn
- 
+
+# 26.1 - Manual html, css, tailwind cdn project ready
+# 26.2 - flex, grid, manual js
+# 26.3 - function - important to watch frequently
+# 26.4 - recap with Rectangle
+# 26.5 - recap with Rectangle
+# 26.6 - make repeateable function
+# 26.7 - make reusable function with peremeter - very important to clear have to watch again - not done
+# 26.8 - recap reusable function, get & set  
+# 26.9 - use reusable function - not done
+
