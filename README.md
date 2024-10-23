@@ -67,8 +67,19 @@
 # 26.3 - function - important to watch frequently
 # 26.4 - recap with Rectangle
 # 26.5 - recap with Rectangle
-# 26.6 - make repeateable function
+# 26.6 - make reusable function
 # 26.7 - make reusable function with peremeter - very important to clear have to watch again - not done
 # 26.8 - recap reusable function, get & set  
 # 26.9 - use reusable function - not done
+
+# 27.1 - CDN project ready, google font use
+# 27.2 - both should use in same place(min-h-screen bg-[#010313]), use background color-image, background manage, to do vertical center - have to increase height, 
+# 27.3 - layout ready using daisyUI, opacity in hexa-decimal
+# 27.4 - get icon from figma, image use in html, border radius in particular side, vertical align
+# 27.5 - gradient color, script file ready, click handler ready
+# 27.6 - add-remove a section by JS, reusable function - add or remove a class from an element
+# 27.7 - split(''), Math.round(randomNumber), alphabets[index] - generate a random alphabet by generate random number, convert a string of letter to an array 
+# 27.8 - display randomly generated alphabet, change background color of the randomly generated alphabet on keyboard by add-remove class, daisyUI theme change
+# 27.9 - Recap
+
 
