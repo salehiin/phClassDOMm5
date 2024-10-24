@@ -73,13 +73,22 @@
 # 26.9 - use reusable function - not done
 
 # 27.1 - CDN project ready, google font use
-# 27.2 - both should use in same place(min-h-screen bg-[#010313]), use background color-image, background manage, to do vertical center - have to increase height, 
-# 27.3 - layout ready using daisyUI, opacity in hexa-decimal
+# 27.2 - both should use in same place(min-h-screen, bg-[#010313]), use background color-image, background manage, to do vertical center - have to increase height, 
+# 27.3 - layout ready using daisyUI, set opacity in hexa-decimal
 # 27.4 - get icon from figma, image use in html, border radius in particular side, vertical align
 # 27.5 - gradient color, script file ready, click handler ready
 # 27.6 - add-remove a section by JS, reusable function - add or remove a class from an element
-# 27.7 - split(''), Math.round(randomNumber), alphabets[index] - generate a random alphabet by generate random number, convert a string of letter to an array 
+# 27.7 - fraction convert to round number - Math.round(randomNumber), generate a random alphabet by generate random number - Math.random() * 25-alphabets[index], convert a alphabetString of alphabetArray - split('')
 # 27.8 - display randomly generated alphabet, change background color of the randomly generated alphabet on keyboard by add-remove class, daisyUI theme change
 # 27.9 - Recap
 
+# 28.1 - keyboard events, detect keyboard button pressed 
+# 28.2 - keyboard event - event.key, check the key press & expected to press is same & return respective message
+# 28.3 - (event) is a default parameter in event handler, remove background color if right key pressed, next key
+# 28.4 - increase score if press right key, text convert to number, decrease lfe if press wrong key
+# 28.5 - recap - reusable function, conceptual(08:10)
+# 28.6 - have to watch again for content, life ends - game over then shift to game over section/page, after game over then restart by pressing play again button & reset life-score 
+# 28.7 - update final score after game over, clear button backgroud color, exit game anytime
+# 28.8 - git push, netlify deploy & update, surge deploy & update
+# 28.9 - recap - task steps
 
