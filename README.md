@@ -85,10 +85,13 @@
 # 28.1 - keyboard events, detect keyboard button pressed 
 # 28.2 - keyboard event - event.key, check the key press & expected to press is same & return respective message
 # 28.3 - (event) is a default parameter in event handler, remove background color if right key pressed, next key
-# 28.4 - increase score if press right key, text convert to number, decrease lfe if press wrong key
+# 28.4 - increase score if press right key, text convert to number, decrease life if press wrong key
 # 28.5 - recap - reusable function, conceptual(08:10)
 # 28.6 - have to watch again for content, life ends - game over then shift to game over section/page, after game over then restart by pressing play again button & reset life-score 
 # 28.7 - update final score after game over, clear button backgroud color, exit game anytime
 # 28.8 - git push, netlify deploy & update, surge deploy & update
 # 28.9 - recap - task steps
 
+# 29_5.1 - recap - getElementsById, getElementsByClassName, querySelector, querySelectorAll - important concep etc.
+# 29_5.2 - typeof, how to check typeof array - Array.isArray(), isNaN(56) = false,
+# wat javascript, javascript undefined check...
