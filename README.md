@@ -33,7 +33,37 @@
 <!-- git log -->
 
 
-# 24.1 -
+<!-- 24.4 Check to dom.js -->
+
+<!-- document.querySelector('fruits-title li') -->
+<!-- document.querySelectorAll('fruits-title li') -->
+<!--  querySelectorAll -->
+
+
+<!-- Difference of HTMLCollection & NodeList - 08:00  -->
+
+<!-- 24.5  05:00 -->
+
+<!-- document.getElementById('fruits-title').styles.textAlign= 'center' - to set any styles -->
+<!-- never use -(dash/hyphen) in javascript instead camelCase -->
+
+<!-- after 05:05 - should check again to clear concept -->
+ <!-- 06:00 -->
+
+
+# 24.1 - important conceptual, connect html with style/js files 
+# Html is document, DOM makes Html as JS object, that's why it's called Document Object Model
+# every element(<h1>, <li> etc.) is a Node
+# what can do with JS
+# 24-2 - Very important (should check often) conceptual
+# document. - document.body, document.getElementById('h1')
+# Document === HTML
+# Object - Make html elements as an JS object
+# Model - means copy
+# Array like object === htmlCollection
+# 24-3 - Very important after 09:30 (should check often) conceptual
+# document.getElementsByTagName('h1'), document.getElementById('fruits-title'), document.getElementsByClassName('important-places')
+# if class then return array like object or empty array, if id then return the element or null
 # 24.9 -
 # should read
 # https://developer.mozilla.org/en-US/docs/Web/API/Node
